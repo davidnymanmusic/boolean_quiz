@@ -46,9 +46,11 @@ form {
 
 .hr1 {
 	border-top: 2px dashed rgb(134, 102, 152);
+  width: 70%;
 }
 .hr2 {
 	border-top: 1px dashed rgb(106, 152, 102);
+  width: 70%;
 }
 
 .buttonDiv {
