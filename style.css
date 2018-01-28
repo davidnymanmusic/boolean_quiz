@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+body {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.question {
+  font-size: 1em;
+  text-align: center;
+}
+
+.answer:hover {
+
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input {
+    font-size: 2em;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  color: rgb(63, 154, 146);
+}
+
+form {
+  margin: 0 auto;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.container {
+  /* border: 1px solid black; */
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+}
+
+.hr1 {
+	border-top: 2px dashed rgb(134, 102, 152);
+}
+.hr2 {
+	border-top: 1px dashed rgb(106, 152, 102);
+}
+
+.buttonDiv {
+  width: 9%;
+  margin: 0 auto;
+    margin-bottom: 15%;
+    text-align: center;
+
+}
+
+.btn {
+  background: #ac85b3;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 1em;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+
+.btn:hover {
+  background: #6a5b6e;
+  text-decoration: none;
+}
+
+.btn2 {
+  background: rgb(95, 203, 122);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 1em;
+  text-decoration: none;
+    margin-bottom: 5%;
+}
+
+.btn2:hover {
+  background: rgb(147, 219, 165);
+  text-decoration: none;
+}
