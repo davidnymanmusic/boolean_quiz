@@ -25,17 +25,15 @@ bool2.innerHTML = andBoo;
 bool3.innerHTML = bigBoo;
 bool4.innerHTML = bigBoo2;
 
-// console.log(orBooA);
-// console.log(andBooA);
-// console.log(bigBooA);
-// console.log(bigBoo2A);
+
+let randNum1 = Math.floor(Math.random() * 10);
+let randNum2 = Math.floor(Math.random() * 10);
+let randNum3 = Math.floor(Math.random() * 10);
+let randNum4 = Math.floor(Math.random() * 10);
+let randNum5 = Math.floor(Math.random() * 10);
+let randNum6 = Math.floor(Math.random() * 10);
 
 function revealAnswer() {
-  console.log(orBooA);
-  console.log(andBooA);
-  console.log(bigBooA);
-  console.log(bigBoo2A);
-
   if(orBooA){
       bool1.style.color = "green";
   } else {

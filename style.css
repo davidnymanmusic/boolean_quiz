@@ -86,3 +86,10 @@ form {
   background: rgb(147, 219, 165);
   text-decoration: none;
 }
+
+.true {
+color: green;
+}
+.false {
+  color: red;
+}
