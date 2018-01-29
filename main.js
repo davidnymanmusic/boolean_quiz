@@ -99,13 +99,13 @@ var randOp6 = ops[Math.floor(Math.random() * ops.length)];
 var randX = x[Math.floor(Math.random() * x.length)];
 var randY = y[Math.floor(Math.random() * y.length)];
 
-console.log(`let x = ${randX};`);
-console.log(`let y = ${randY};`);
+// console.log(`let x = ${randX};`);
+// console.log(`let y = ${randY};`);
 
-console.log(`x ${randOp1} y`);
+// console.log(`x ${randOp1} y`);
 let alg1 = `x ${randOp1} y`;
 let alg1A = eval(`${randX} ${randOp1} ${randY}`)
-console.log(alg1A);
+// console.log(alg1A);
 
 
 
