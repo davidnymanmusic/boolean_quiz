@@ -96,10 +96,10 @@ form {
 }
 
 .true {
-color: green;
+color: blue;
 font-weight: bold;
 }
 .false {
-  color: red;
+  color: orange;
   font-weight: bold;
 }

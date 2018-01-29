@@ -125,59 +125,59 @@ numExp6.innerHTML = exp6;
 
 function revealAnswer() {
   if (orBooA) {
-    bool1.style.color = "green";
+    bool1.style.color = "blue";
   } else {
-    bool1.style.color = "red";
+    bool1.style.color = "orange";
   }
 
   if (andBooA) {
-    bool2.style.color = "green";
+    bool2.style.color = "blue";
   } else {
-    bool2.style.color = "red";
+    bool2.style.color = "orange";
   }
 
   if (bigBooA) {
-    bool3.style.color = "green";
+    bool3.style.color = "blue";
   } else {
-    bool3.style.color = "red";
+    bool3.style.color = "orange";
   }
 
   if (bigBoo2A) {
-    bool4.style.color = "green";
+    bool4.style.color = "blue";
   } else {
-    bool4.style.color = "red";
+    bool4.style.color = "orange";
   }
 
   if (exp1A) {
-    numExp1.style.color = "green";
+    numExp1.style.color = "blue";
   } else {
-    numExp1.style.color = "red";
+    numExp1.style.color = "orange";
   }
 
   if (exp2A) {
-    numExp2.style.color = "green";
+    numExp2.style.color = "blue";
   } else {
-    numExp2.style.color = "red";
+    numExp2.style.color = "orange";
   }
   if (exp3A) {
-    numExp3.style.color = "green";
+    numExp3.style.color = "blue";
   } else {
-    numExp3.style.color = "red";
+    numExp3.style.color = "orange";
   }
   if (exp4A) {
-    numExp4.style.color = "green";
+    numExp4.style.color = "blue";
   } else {
-    numExp4.style.color = "red";
+    numExp4.style.color = "orange";
   }
   if (exp5A) {
-    numExp5.style.color = "green";
+    numExp5.style.color = "blue";
   } else {
-    numExp5.style.color = "red";
+    numExp5.style.color = "orange";
   }
   if (exp6A) {
-    numExp6.style.color = "green";
+    numExp6.style.color = "blue";
   } else {
-    numExp6.style.color = "red";
+    numExp6.style.color = "orange";
   }
 
 
@@ -197,88 +197,88 @@ var answer10= eval(document.querySelector('input[name="boolean10"]:checked').val
 
 if((orBooA === eval(answer1))){
   document.getElementById("solution").innerText = "Correct!";
-  document.getElementById("solution").style.color = "purple"
+  document.getElementById("solution").style.color = "green"
 
 } else {
     document.getElementById("solution").innerText = "Wrong!"
-    document.getElementById("solution").style.color = "orange"
+    document.getElementById("solution").style.color = "red"
 }
 
 if((andBooA === eval(answer2))){
   document.getElementById("solution2").innerText = "Correct!";
-  document.getElementById("solution2").style.color = "purple"
+  document.getElementById("solution2").style.color = "green"
 
 } else {
     document.getElementById("solution2").innerText = "Wrong!"
-    document.getElementById("solution2").style.color = "orange"
+    document.getElementById("solution2").style.color = "red"
 }
 if((bigBooA === eval(answer3))){
   document.getElementById("solution3").innerText = "Correct!";
-  document.getElementById("solution3").style.color = "purple"
+  document.getElementById("solution3").style.color = "green"
 
 } else {
     document.getElementById("solution3").innerText = "Wrong!"
-    document.getElementById("solution3").style.color = "orange"
+    document.getElementById("solution3").style.color = "red"
 }
 
 if((bigBoo2A === eval(answer4))){
   document.getElementById("solution4").innerText = "Correct!";
-  document.getElementById("solution4").style.color = "purple"
+  document.getElementById("solution4").style.color = "green"
 
 } else {
     document.getElementById("solution4").innerText = "Wrong!"
-    document.getElementById("solution4").style.color = "orange"
+    document.getElementById("solution4").style.color = "red"
 }
 if((exp1A === eval(answer5))){
   document.getElementById("solution5").innerText = "Correct!";
-  document.getElementById("solution5").style.color = "purple"
+  document.getElementById("solution5").style.color = "green"
 
 } else {
     document.getElementById("solution5").innerText = "Wrong!"
-    document.getElementById("solution5").style.color = "orange"
+    document.getElementById("solution5").style.color = "red"
 }
 
 if((exp2A === eval(answer6))){
   document.getElementById("solution6").innerText = "Correct!";
-  document.getElementById("solution6").style.color = "purple"
+  document.getElementById("solution6").style.color = "green"
 
 } else {
     document.getElementById("solution6").innerText = "Wrong!"
-    document.getElementById("solution6").style.color = "orange"
+    document.getElementById("solution6").style.color = "red"
 }
 if((exp3A === eval(answer7))){
   document.getElementById("solution7").innerText = "Correct!";
-  document.getElementById("solution7").style.color = "purple"
+  document.getElementById("solution7").style.color = "green"
 
 } else {
     document.getElementById("solution7").innerText = "Wrong!"
-    document.getElementById("solution7").style.color = "orange"
+    document.getElementById("solution7").style.color = "red"
 }
 
 if((exp4A === eval(answer8))){
   document.getElementById("solution8").innerText = "Correct!";
-  document.getElementById("solution8").style.color = "purple"
+  document.getElementById("solution8").style.color = "green"
 
 } else {
     document.getElementById("solution8").innerText = "Wrong!"
-    document.getElementById("solution8").style.color = "orange"
+    document.getElementById("solution8").style.color = "red"
 }
 if((exp5A === eval(answer9))){
   document.getElementById("solution9").innerText = "Correct!";
-  document.getElementById("solution9").style.color = "purple"
+  document.getElementById("solution9").style.color = "green"
 
 } else {
     document.getElementById("solution9").innerText = "Wrong!"
-    document.getElementById("solution9").style.color = "orange"
+    document.getElementById("solution9").style.color = "red"
 }
 
 if((exp6A === eval(answer10))){
   document.getElementById("solution10").innerText = "Correct!";
-  document.getElementById("solution10").style.color = "purple"
+  document.getElementById("solution10").style.color = "green"
 
 } else {
     document.getElementById("solution10").innerText = "Wrong!"
-    document.getElementById("solution10").style.color = "orange"
+    document.getElementById("solution10").style.color = "red"
 }
 
 };
