@@ -77,6 +77,10 @@ const ops = [
   '>',
   '>=',
   '<=',
+  '<',
+  '>',
+  '>=',
+  '<=',
   '===',
   '!=='
 ];
@@ -97,6 +101,10 @@ let exp6 = `(${randNum1} + ${randNum2}) ${randOp6} (${randNum4} + ${randNum5})`
 let exp7 = `(${randNum2} + ${randNum4}) ${randOp2} (${randNum1} + ${randNum6})`
 let exp8 = `(${randNum6} + ${randNum3}) ${randOp1} (${randNum5} + ${randNum4})`
 
+let hard1 = `(${boo6} ${randOr3} ${boo3}) ${randOr2} ((${randNum6} + ${randNum3}) ${randOp1} (${randNum5} + ${randNum4})) `
+let hard2 = `((${randNum1} + ${randNum2}) ${randOp1} (${randNum5} + ${randNum4})) ${randOr4}  (${boo1} ${randOr3} ${boo2}) `
+
+
 let exp1A = eval(exp1)
 let exp2A = eval(exp2)
 let exp3A = eval(exp3)
@@ -106,12 +114,18 @@ let exp6A = eval(exp6)
 let exp7A = eval(exp7)
 let exp8A = eval(exp8)
 
+let hard1A = eval(hard1);
+let hard2A = eval(hard2);
+
+console.log(hard1A);
+console.log(hard2A);
+
 numExp1.innerHTML = exp1;
 numExp2.innerHTML = exp2;
 numExp3.innerHTML = exp3;
 numExp4.innerHTML = exp4;
-numExp5.innerHTML = exp5;
-numExp6.innerHTML = exp6;
+numExp5.innerHTML = hard1;
+numExp6.innerHTML = hard2;
 
 
 // console.log(exp1, exp1A);
@@ -169,12 +183,12 @@ function revealAnswer() {
   } else {
     numExp4.style.color = "orange";
   }
-  if (exp5A) {
+  if (hard1A) {
     numExp5.style.color = "blue";
   } else {
     numExp5.style.color = "orange";
   }
-  if (exp6A) {
+  if (hard2A) {
     numExp6.style.color = "blue";
   } else {
     numExp6.style.color = "orange";
@@ -263,7 +277,7 @@ if((exp4A === eval(answer8))){
     document.getElementById("solution8").innerText = "Wrong!"
     document.getElementById("solution8").style.color = "red"
 }
-if((exp5A === eval(answer9))){
+if((hard1A === eval(answer9))){
   document.getElementById("solution9").innerText = "Correct!";
   document.getElementById("solution9").style.color = "green"
 
@@ -272,7 +286,7 @@ if((exp5A === eval(answer9))){
     document.getElementById("solution9").style.color = "red"
 }
 
-if((exp6A === eval(answer10))){
+if((hard2A === eval(answer10))){
   document.getElementById("solution10").innerText = "Correct!";
   document.getElementById("solution10").style.color = "green"
 
