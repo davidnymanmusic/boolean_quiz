@@ -3,6 +3,9 @@ const bool2 = document.getElementById('bool2');
 const bool3 = document.getElementById('bool3');
 const bool4 = document.getElementById('bool4');
 
+const trueSpan = document.getElementsByClassName('true');
+const falseSpan = document.getElementsByClassName('false');
+
 const numExp1 = document.getElementById('numExp1');
 const numExp2 = document.getElementById('numExp2');
 const numExp3 = document.getElementById('numExp3');
@@ -176,5 +179,31 @@ function revealAnswer() {
   } else {
     numExp6.style.color = "red";
   }
+
+// var answer = eval(document.querySelector('input[name="boolean"]:checked').value);
+// console.log(orBooA, eval(answer));
+//
+// if((orBooA === answer)){
+//   document.getElementById("solution").innerText = "Correct!";
+//   document.getElementById("solution").style.color = "green"
+//
+// } else {
+//     document.getElementById("solution").innerText = "Wrong!"
+//     document.getElementById("solution").style.color = "red"
+// }
+// var answer2 = eval(document.querySelector('input[name="boolean2"]:checked').value);
+// console.log(orBooA, eval(answer2));
+//
+// if(andBooA === answer2)){
+//   document.getElementById("solution").innerText = "Correct!";
+//   document.getElementById("solution").style.color = "green"
+//
+// } else {
+//     document.getElementById("solution").innerText = "Wrong!"
+//     document.getElementById("solution").style.color = "red"
+// }
+
+
+
 
 };
