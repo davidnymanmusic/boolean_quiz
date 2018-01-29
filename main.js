@@ -180,30 +180,105 @@ function revealAnswer() {
     numExp6.style.color = "red";
   }
 
-// var answer = eval(document.querySelector('input[name="boolean"]:checked').value);
-// console.log(orBooA, eval(answer));
-//
-// if((orBooA === answer)){
-//   document.getElementById("solution").innerText = "Correct!";
-//   document.getElementById("solution").style.color = "green"
-//
-// } else {
-//     document.getElementById("solution").innerText = "Wrong!"
-//     document.getElementById("solution").style.color = "red"
-// }
-// var answer2 = eval(document.querySelector('input[name="boolean2"]:checked').value);
-// console.log(orBooA, eval(answer2));
-//
-// if(andBooA === answer2)){
-//   document.getElementById("solution").innerText = "Correct!";
-//   document.getElementById("solution").style.color = "green"
-//
-// } else {
-//     document.getElementById("solution").innerText = "Wrong!"
-//     document.getElementById("solution").style.color = "red"
-// }
 
 
 
+var answer1 = document.querySelector('input[name="boolean1"]:checked').value;
+var answer2= document.querySelector('input[name="boolean2"]:checked').value;
+var answer3= eval(document.querySelector('input[name="boolean3"]:checked').value);
+var answer4= eval(document.querySelector('input[name="boolean4"]:checked').value);
+var answer5= eval(document.querySelector('input[name="boolean5"]:checked').value);
+var answer6= eval(document.querySelector('input[name="boolean6"]:checked').value);
+var answer7= eval(document.querySelector('input[name="boolean7"]:checked').value);
+var answer8= eval(document.querySelector('input[name="boolean8"]:checked').value);
+var answer9= eval(document.querySelector('input[name="boolean9"]:checked').value);
+var answer10= eval(document.querySelector('input[name="boolean10"]:checked').value);
+
+
+if((orBooA === eval(answer1))){
+  document.getElementById("solution").innerText = "Correct!";
+  document.getElementById("solution").style.color = "purple"
+
+} else {
+    document.getElementById("solution").innerText = "Wrong!"
+    document.getElementById("solution").style.color = "orange"
+}
+
+if((andBooA === eval(answer2))){
+  document.getElementById("solution2").innerText = "Correct!";
+  document.getElementById("solution2").style.color = "purple"
+
+} else {
+    document.getElementById("solution2").innerText = "Wrong!"
+    document.getElementById("solution2").style.color = "orange"
+}
+if((bigBooA === eval(answer3))){
+  document.getElementById("solution3").innerText = "Correct!";
+  document.getElementById("solution3").style.color = "purple"
+
+} else {
+    document.getElementById("solution3").innerText = "Wrong!"
+    document.getElementById("solution3").style.color = "orange"
+}
+
+if((bigBoo2A === eval(answer4))){
+  document.getElementById("solution4").innerText = "Correct!";
+  document.getElementById("solution4").style.color = "purple"
+
+} else {
+    document.getElementById("solution4").innerText = "Wrong!"
+    document.getElementById("solution4").style.color = "orange"
+}
+if((exp1A === eval(answer5))){
+  document.getElementById("solution5").innerText = "Correct!";
+  document.getElementById("solution5").style.color = "purple"
+
+} else {
+    document.getElementById("solution5").innerText = "Wrong!"
+    document.getElementById("solution5").style.color = "orange"
+}
+
+if((exp2A === eval(answer6))){
+  document.getElementById("solution6").innerText = "Correct!";
+  document.getElementById("solution6").style.color = "purple"
+
+} else {
+    document.getElementById("solution6").innerText = "Wrong!"
+    document.getElementById("solution6").style.color = "orange"
+}
+if((exp3A === eval(answer7))){
+  document.getElementById("solution7").innerText = "Correct!";
+  document.getElementById("solution7").style.color = "purple"
+
+} else {
+    document.getElementById("solution7").innerText = "Wrong!"
+    document.getElementById("solution7").style.color = "orange"
+}
+
+if((exp4A === eval(answer8))){
+  document.getElementById("solution8").innerText = "Correct!";
+  document.getElementById("solution8").style.color = "purple"
+
+} else {
+    document.getElementById("solution8").innerText = "Wrong!"
+    document.getElementById("solution8").style.color = "orange"
+}
+if((exp5A === eval(answer9))){
+  document.getElementById("solution9").innerText = "Correct!";
+  document.getElementById("solution9").style.color = "purple"
+
+} else {
+    document.getElementById("solution9").innerText = "Wrong!"
+    document.getElementById("solution9").style.color = "orange"
+}
+
+if((exp6A === eval(answer10))){
+  document.getElementById("solution10").innerText = "Correct!";
+  document.getElementById("solution10").style.color = "purple"
+
+} else {
+    document.getElementById("solution10").innerText = "Wrong!"
+    document.getElementById("solution10").style.color = "orange"
+}
 
 };
