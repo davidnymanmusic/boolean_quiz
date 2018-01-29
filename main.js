@@ -85,12 +85,30 @@ const ops = [
   '!=='
 ];
 
+const x = [0,1,2,3,4,5,6,7,8,9,10];
+const y = [0,1,2,3,4,5,6,7,8,9,10];
+
+
 var randOp1 = ops[Math.floor(Math.random() * ops.length)];
 var randOp2 = ops[Math.floor(Math.random() * ops.length)];
 var randOp3 = ops[Math.floor(Math.random() * ops.length)];
 var randOp4 = ops[Math.floor(Math.random() * ops.length)];
 var randOp5 = ops[Math.floor(Math.random() * ops.length)];
 var randOp6 = ops[Math.floor(Math.random() * ops.length)];
+
+var randX = x[Math.floor(Math.random() * x.length)];
+var randY = y[Math.floor(Math.random() * y.length)];
+
+console.log(`let x = ${randX};`);
+console.log(`let y = ${randY};`);
+
+console.log(`x ${randOp1} y`);
+let alg1 = `x ${randOp1} y`;
+let alg1A = eval(`${randX} ${randOp1} ${randY}`)
+console.log(alg1A);
+
+
+
 
 let exp1 = `${randNum1} ${randOp1} ${randNum2}`;
 let exp2 = `${randNum3} ${randOp2} ${randNum4}`;
@@ -103,6 +121,9 @@ let exp8 = `(${randNum6} + ${randNum3}) ${randOp1} (${randNum5} + ${randNum4})`
 
 let hard1 = `(${boo6} ${randOr3} ${boo3}) ${randOr2} ((${randNum6} + ${randNum3}) ${randOp1} (${randNum5} + ${randNum4})) `
 let hard2 = `((${randNum1} + ${randNum2}) ${randOp1} (${randNum5} + ${randNum4})) ${randOr4}  (${boo1} ${randOr3} ${boo2}) `
+
+// let harder1 = `let x = ${randX}; let y = ${randY}; `
+// let harder2 =
 
 
 let exp1A = eval(exp1)
@@ -117,8 +138,8 @@ let exp8A = eval(exp8)
 let hard1A = eval(hard1);
 let hard2A = eval(hard2);
 
-console.log(hard1A);
-console.log(hard2A);
+// console.log(hard1A);
+// console.log(hard2A);
 
 numExp1.innerHTML = exp1;
 numExp2.innerHTML = exp2;
